@@ -94,9 +94,11 @@ section{
 }
 
 .header .header-1 .logo{
-    font-size: 2.5rem;
-    font-weight: bolder;
-    color:var(--black);
+    font-size: 3.5rem;
+    font-weight:bolder;
+    color: rgb(58, 63, 158);
+    font: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .header .header-1 .logo i{
@@ -298,7 +300,8 @@ section{
 }
 
 .home .row .content{
-    flex:1 1 42rem;
+    flex:4 5 42rem;
+    font-family: 'Times New Roman';
 }
 
 .home .row .books-slider{
@@ -452,7 +455,7 @@ section{
     color:#fff;
 }
 
-.newsletter{
+/* .newsletter{
     background:url(../image/letter-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -481,7 +484,7 @@ section{
     color:var(--black);
     border-radius: .5rem;
     text-transform: none;
-}
+} */
 
 .arrivals .arrivals-slider .box{
     display: flex;
