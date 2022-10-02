@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --green:#21a6b0;
+    --green:#b06121;
     --dark-color:#368fc6;
     --black:#444;
     --light-color:#666;
@@ -26,6 +26,7 @@ html{
     overflow-x: hidden;
     scroll-padding-top: 5rem;
     scroll-behavior: smooth;
+    background-color: #f3f3f3;
 }
 
 html::-webkit-scrollbar{
@@ -98,7 +99,7 @@ section{
     font-weight:bolder;
     color: rgb(58, 63, 158);
     font: bold;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .header .header-1 .logo i{
